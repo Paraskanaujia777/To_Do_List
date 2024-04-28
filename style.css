@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    background: linear-gradient(to bottom , pink , lightblue);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100vh;
+}
+
+
+.outerBlock{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+.outerBlock h1 {
+    
+    padding: 15px 20px;
+    margin: 15px auto;
+    background-color: antiquewhite;
+}
+
+.outerBlock input{
+    padding: 10px 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+button{
+    font-size: 25px;
+    padding: 5px ;
+    margin: 8px ;
+}
+
+#listItem li{
+    padding: 8px 10px;
+    background-color: antiquewhite;
+    font-size: 15px;
+    list-style: circle;
+    margin: 5px 5px;
+    position: relative;
+    
+}
+
+#listItem li span {
+    position: absolute;
+    /* background-color: black; */
+    color: black;
+    cursor: pointer;
+    right: 15px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    font-size: 30px;
+}
